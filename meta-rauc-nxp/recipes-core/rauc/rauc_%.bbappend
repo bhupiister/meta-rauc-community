@@ -5,8 +5,8 @@ SRC_URI:append := "  \
 	file://grow-data-partition.sh \
 "
 
-RDEPENDS:${PN} += "u-boot-fw-utils u-boot-imx-env"
-DEPENDS += "u-boot"
+RDEPENDS:${PN} += "u-boot-fw-utils u-boot-engicam"
+DEPENDS += "u-boot-engicam"
 
 inherit systemd
 
